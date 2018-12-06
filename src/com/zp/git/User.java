@@ -4,6 +4,7 @@ public class User {
 	private int id;
 	private String name;
 	private String passwodr;
+	private String sex;
 
 	public int getId() {
 		return id;
@@ -28,4 +29,13 @@ public class User {
 	public void setPasswodr(String passwodr) {
 		this.passwodr = passwodr;
 	}
+
+	public String getSex() {
+		return sex;
+	}
+
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+
 }
