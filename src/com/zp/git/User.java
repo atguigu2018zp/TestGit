@@ -3,7 +3,7 @@ package com.zp.git;
 public class User {
 	private int id;
 	private String name;
-	private String passwodr;
+	private String password;
 	private String sex;
 
 	public int getId() {
@@ -22,12 +22,12 @@ public class User {
 		this.name = name;
 	}
 
-	public String getPasswodr() {
-		return passwodr;
+	public String getPassword() {
+		return password;
 	}
 
-	public void setPasswodr(String passwodr) {
-		this.passwodr = passwodr;
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	public String getSex() {
